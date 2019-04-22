@@ -1,3 +1,4 @@
+# no terminal antes pip install pygame
 import pygame
 pygame.init()
 #pygame.mixer.music.load("rock.00000.au")
