@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JLayer1.0.1/JLayer1.0.1.iml" filepath="$PROJECT_DIR$/JLayer1.0.1/JLayer1.0.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/music.iml" filepath="$PROJECT_DIR$/music.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/music.iml" filepath="$PROJECT_DIR$/.idea/music.iml" />
     </modules>
   </component>
 </project>
