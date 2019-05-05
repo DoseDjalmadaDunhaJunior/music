@@ -1,6 +1,8 @@
-# no terminal antes pip install pygame
-#import pygame
-#pygame.init()
+# no terminal executar os comandos com pip
+
+#pip install tensorflow==2.0.0-alpha0
+#pip install Keras-Applications==1.0.7
+#pip install Keras-Preprocessing==1.0.9
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data", one_hot=True)
@@ -52,3 +54,4 @@ with tf.Session() as sess:
     accuracy = sess.run(acc, feed_dict={x: mnist.test.images,
                                         y: mnist.test.labels})
     print("Test acc:", accuracy)
+
